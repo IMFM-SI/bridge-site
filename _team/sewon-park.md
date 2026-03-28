@@ -1,6 +1,6 @@
 ---
 title: "Sewon Park"
 jobtitle: "postdoc"
-weight: 2
+weight: 1
 ---
 

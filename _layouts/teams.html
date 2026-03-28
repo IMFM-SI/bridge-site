@@ -39,6 +39,7 @@ bodyClass: "page-teams"
                 <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
             </div>
         </div>
+        {% if team.row_break_after %}<div class="w-100"></div>{% endif %}
         {% endfor %}
     </div>
     <div class="row pt-6 pb-6">
@@ -57,6 +58,7 @@ bodyClass: "page-teams"
                 </div>
             </div>
         </div>
+        {% if team.row_break_after %}<div class="w-100"></div>{% endif %}
         {% endfor %}
     </div>
 </div>
