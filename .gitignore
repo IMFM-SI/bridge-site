@@ -1,4 +1,4 @@
 .bundle
 .git
 .jekyll-cache
-vendor
+vendor/
