@@ -2,6 +2,7 @@
 title: BRIDGE
 layout: home
 description: Bridging AI, Proof Assistants, and Mathematical Data.
+intro_image: images/illustrations/three-bridges.svg
 intro_image_absolute: true
 intro_image_hide_on_mobile: true
 show_call_box: false
