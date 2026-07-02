@@ -1,7 +1,7 @@
 ---
 title: "Andrej Bauer"
-promoted: true
-weight: 1
+jobtitle: "PI"
+lastname: "Bauer"
 excerpt: "Head of Theoretical Computer Science at IMFM and professor of computational mathematics at the University of Ljubljana."
 ---
 

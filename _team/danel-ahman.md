@@ -1,7 +1,7 @@
 ---
 title: "Danel Ahman"
-promoted: true
-weight: 4
+jobtitle: "researcher"
+lastname: "Ahman"
 excerpt: "Associate Professor at the University of Tartu, working on programming language theory and type systems."
 ---
 

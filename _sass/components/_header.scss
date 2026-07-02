@@ -11,6 +11,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    @include media-breakpoint-up(md) {
+      justify-content: flex-start;
+      .main-menu {
+        margin-left: 10px;
+      }
+    }
   }
   &.header-absolute {
     position: absolute;

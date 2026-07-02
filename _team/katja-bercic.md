@@ -1,7 +1,7 @@
 ---
 title: "Katja Berčič"
-weight: 5
-promoted: true
+jobtitle: "researcher"
+lastname: "Berčič"
 excerpt: "Researcher at IMFM, working on infrastructure for mathematical data."
 ---
 

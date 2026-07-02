@@ -3,7 +3,7 @@ layout: default
 bodyClass: "page-teams"
 ---
 
-<div class="intro">
+<div class="intro{% unless page.intro_image %} intro-small{% endunless %}">
     <div class="container">
         <div class="row justify-content-start">
             <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
@@ -19,46 +19,30 @@ bodyClass: "page-teams"
 </div>
 
 <div class="container pt-6 pb-6">
-    <div class="row">
-        {% assign promoted_teams = site.team | where: "promoted", true | sort: "weight" %}
-        {% for team in promoted_teams %}
-        <div class="col-12 col-md-6 mb-2">
-            <div class="team team-summary team-summary-large">
-                {% if team.image %}
-                <div class="team-image">
-                    <img width="90" height="90" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
-                    {% if team.linkedinurl %}
-                    <a target="_blank" href="{{ team.linkedinurl }}" rel="noreferrer">LinkedIn</a>
+    <div class="row justify-content-start">
+        <div class="col-12 col-md-8">
+            {% assign role_keys = "PI|researcher|postdoc|master's student" | split: "|" %}
+            {% assign role_titles = "Principal Investigator|Researchers|Postdocs|Master's Students" | split: "|" %}
+            {% for role in role_keys %}
+            {% assign members = site.team | where: "jobtitle", role | sort: "lastname" %}
+            {% if members.size > 0 %}
+            <div class="{% unless forloop.first %}mt-5{% endunless %}">
+                <h2>{{ role_titles[forloop.index0] }}</h2>
+                {% for member in members %}
+                <div class="team team-summary mb-2">
+                    <div class="team-meta">
+                        <h3 class="team-name"><a href="{{ member.url | relative_url }}">{{ member.title }}</a></h3>
+                    </div>
+                    {% capture member_excerpt %}{{ member.excerpt }}{% endcapture %}
+                    {% assign member_excerpt = member_excerpt | strip %}
+                    {% if member_excerpt != "" %}
+                    <div class="team-content">{{ member_excerpt }}</div>
                     {% endif %}
                 </div>
-                <div class="team-content">{{ team.excerpt | truncate: 120 }}</div>
+                {% endfor %}
             </div>
+            {% endif %}
+            {% endfor %}
         </div>
-        {% if team.row_break_after %}<div class="w-100"></div>{% endif %}
-        {% endfor %}
-    </div>
-    <div class="row pt-6 pb-6">
-        {% assign teams = site.team | where_exp: "item", "item.promoted != true" | sort: "weight" %}
-        {% for team in teams %}
-        <div class="col-12 col-md-4 mb-3">
-            <div class="team team-summary">
-                {% if team.image %}
-                <div class="team-image">
-                    <img width="60" height="60" alt="{{ team.title }}" class="img-fluid mb-2" src="{{ team.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="team-meta">
-                    <h2 class="team-name"><a href="{{ team.url | relative_url }}">{{ team.title }}</a></h2>
-                    <p class="team-description">{{ team.jobtitle }}</p>
-                </div>
-            </div>
-        </div>
-        {% if team.row_break_after %}<div class="w-100"></div>{% endif %}
-        {% endfor %}
     </div>
 </div>

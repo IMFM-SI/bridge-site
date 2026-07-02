@@ -1,7 +1,7 @@
 ---
 title: "Primož Potočnik"
-promoted: true
-weight: 2
+jobtitle: "researcher"
+lastname: "Potočnik"
 excerpt: "Professor of mathematics at the University of Ljubljana, specializing in symmetry in combinatorial structures."
 ---
 
