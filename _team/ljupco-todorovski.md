@@ -2,7 +2,6 @@
 title: "Ljupčo Todorovski"
 promoted: true
 weight: 3
-row_break_after: true
 excerpt: "Professor of computer science at the University of Ljubljana, specializing in machine learning for scientific discovery."
 ---
 
