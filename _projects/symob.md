@@ -13,6 +13,6 @@ Download: [symob.zip](https://mathswitch.xyz/symob.zip) (32,9 MB; Katja Berčič
 
 ## Certificates for proof assistants
 
-A collection of certificates witnessing that a graph has the specified group as its full automorphism group. The certificates are given for the 111674 graphs from the combined censuses of connected cubic vertex-transitive graphs on up to 1280 vertices by Potočnik, Spiga and Verret, and of connected cubic symmetric graphs on up to 2048 vertices by Conder. See README.md below for more details.
+A collection of certificates witnessing that a graph has the specified group as its full automorphism group. The certificates are given for the 111674 graphs from the combined censuses of connected cubic vertex-transitive graphs on up to 1280 vertices by Potočnik, Spiga and Verret, and of connected cubic symmetric graphs on up to 2048 vertices by Conder.
 
 [Automorphism group certificates for cubic vertex-transitive graphs on Zenodo](https://zenodo.org/records/19560683) (Janoš Vidali).
