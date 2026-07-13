@@ -3,6 +3,6 @@ title: "Bridge MCP"
 weight: 1
 ---
 
-[Bridge MCP](https://github.com/IMFM-SI/bridge-mcp) is a Model Context Protocol (MCP) server that enriches AI agents with mathematical knowledge.
+[Bridge MCP](https://github.com/IMFM-SI/bridge-mcp) is a server that lets AI agents ask questions about mathematical objects.
 
-It gives agents access to collections of mathematical objects through MathQL, a small, typed query language. A MathQL query names one or more domains of objects, states a condition the objects must satisfy, and lists the expressions to return; it is type-checked, compiled to SQL, and run against a bundled database of mathematical objects. The server installs as a single command and works with any MCP client, such as Claude Desktop.
+The agent poses its questions in [MathQL](/projects/bridge-query-language/), and the server answers them from a database of mathematical objects. It speaks the Model Context Protocol, so any MCP client can use it, Claude Desktop for instance. A small database ships with the server, so it works out of the box: install it with a single command, point your client at it, and start asking questions.

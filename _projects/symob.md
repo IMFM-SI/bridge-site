@@ -3,13 +3,13 @@ title: "Symmetric Objects"
 weight: 4
 ---
 
-Linking existing datasets of highly symmetric combinatorial structures and preparing them for use with proof assistants.
+We link existing datasets of highly symmetric structures and prepare them for proof assistants.
 
 ## Finding links via maniplexes
 
-Our first cross-linked dataset is built around *maniplexes* — a unifying framework that captures graphs, maps on surfaces, and abstract polytopes in a common language. Maniplexes are matched via canonical forms to existing resources such as the House of Graphs and Potočnik's [censuses of highly symmetric tetravalent graphs](https://graphsym.net).
+Our first cross-linked dataset is built around *maniplexes*, a unifying framework that captures graphs, maps on surfaces, and abstract polytopes in a common language. Maniplexes are matched via canonical forms to existing resources such as the House of Graphs and Potočnik's [censuses of highly symmetric tetravalent graphs](https://graphsym.net).
 
-Download: [symob.zip](https://mathswitch.xyz/symob.zip) (32,9 MB; Katja Berčič, Gabe Cunningham, Andrés David Santamaría-Galvis, and Janoš Vidali).
+Download: [symob.zip](https://mathswitch.xyz/symob.zip) (32.9 MB; Katja Berčič, Gabe Cunningham, Andrés David Santamaría-Galvis, and Janoš Vidali).
 
 ## Certificates for proof assistants
 

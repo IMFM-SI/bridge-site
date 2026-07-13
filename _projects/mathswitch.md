@@ -3,6 +3,6 @@ title: "Mathswitch"
 weight: 3
 ---
 
-[Mathswitch](https://mathswitch.xyz) is a web-based prototype that aggregates mathematical concepts.
+[Mathswitch](https://mathswitch.xyz) is a prototype that gathers mathematical concepts from around the web into one place.
 
-Concepts from Wikidata, Wikipedia, nLab, MathWorld, ProofWiki, Encyclopedia of Mathematics, and Agda Unimath are collected into a unified, searchable interface. 
+The same concept is described in many places: Wikidata, Wikipedia, nLab, MathWorld, ProofWiki, the Encyclopedia of Mathematics, and Agda Unimath. Mathswitch collects the descriptions into a single searchable interface.
