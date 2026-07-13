@@ -1,6 +1,6 @@
 ---
 title: "Mathswitch"
-weight: 2
+weight: 3
 ---
 
 [Mathswitch](https://mathswitch.xyz) is a web-based prototype that aggregates mathematical concepts.
