@@ -1,6 +1,6 @@
 ---
 title: "Bridge MCP"
-weight: 3
+weight: 1
 ---
 
 [Bridge MCP](https://github.com/IMFM-SI/bridge-mcp) is a Model Context Protocol (MCP) server that enriches AI agents with mathematical knowledge.

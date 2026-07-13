@@ -1,6 +1,6 @@
 ---
 title: "Symmetric Objects"
-weight: 2
+weight: 3
 ---
 
 Linking existing datasets of highly symmetric combinatorial structures and preparing them for use with proof assistants.
